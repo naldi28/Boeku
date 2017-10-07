@@ -9,8 +9,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="img/logo-favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="img/fav.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" type="text/css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="assets/css/app.css" type="text/css" rel="stylesheet">
 </head>
@@ -38,11 +39,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     
     <div class="page-header">
         <div class="content">
-            <h1 class="title" style="color: #ffffff;"><b>Boe</b>Ku</h1>
+            <h1 class="title" style="color: #ffffff;"><b>BOE</b>KU</h1>
             <h2 style="color: #ffffff; text-align: center;"><strong>#IndonesiaMembaca</strong></h2>
-            <form action="" method="POST">
-                
-            </form>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <a href="http://bit.ly/boeku">
+                <button type="button" class="btn btn-default btn-md btn-block" style="color: #fdd304"><strong>Isi Survei Kami</strong></button>      
+                </a>          
+            </div>
+            <div class="col-md-4"></div>
         </div>
     </div>
     
